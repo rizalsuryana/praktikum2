@@ -1,0 +1,107 @@
+body {
+    box-sizing: content-box;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(6, 61, 87);
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    padding: 12px 15%;
+    background-color: #00e1ff;
+  }
+  .gb-brand {
+    font-family: "Quicksand", sans-serif;
+    font-weight: bold;
+    font-size: 25px;
+    color: #110149fa;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .nav-link {
+    list-style: none;
+    margin-right: 290px;
+  }
+  
+  .nav-link li {
+    display: inline-block;
+    padding: 0px 25px;
+  }
+  .gb-link {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    color: #a5971b;
+    text-decoration: none;
+  }
+  
+  .gb-link:hover::after {
+    content: "";
+    display: block;
+    border-bottom: 5px solid #202040;
+    width: 80%;
+    margin: auto;
+    padding-bottom: 7px;
+    margin-bottom: -10px;
+  }
+
+
+.container {
+  padding: 3rem 10rem;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+  background: url("/assets/img/alas.png");
+  background-size: cover;
+  position: absolute;
+  z-index: -2;
+}
+.main-content {
+    display: flex;
+  }
+  
+  .text {
+    padding-top: 12rem;
+  }
+  
+  .banner {
+    margin-top: -250px;
+    margin-left: -50px;
+    float: right;
+  }
+  
+  .text h1 {
+    font-family: "Quicksand", sans-serif;
+    font-size: 35px;
+    color: white;
+    font-weight: 500 !important;
+  }
+  .deskripsi1 {
+    font-family: "Quicksand", sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    margin-top: 10px;
+  }
+  
+  .btn {
+    padding: 10px 10%;
+    background-color: #1c5a84;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-family: "Quicksand", sans-serif;
+  }
+  
+  .btn:hover {
+    background-color: #bbe1fa;
+    color: #202040;
+    transition: 0.5s;
+  }
+    
+  
